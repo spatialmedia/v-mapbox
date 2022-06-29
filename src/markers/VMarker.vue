@@ -1,12 +1,6 @@
 <template>
   <section :id="`marker-${Date.now()}`">
-    <v-popup
-      :marker="marker"
-      :options="popupOptions"
-      :coordinates="coordinates"
-    >
-      <slot />
-    </v-popup>
+    <slot />
   </section>
 </template>
 <script lang="ts">
