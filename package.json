@@ -1,5 +1,5 @@
 {
-  "name": "v-mapbox",
+  "name": "@spatialmedia/v-mapbox",
   "version": "3.2.3",
   "description": "Mapbox with Vue 💚",
   "type": "module",
@@ -98,10 +98,6 @@
     "maplibre-gl-js",
     "maplibre-gl"
   ],
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org"
-  },
   "author": {
     "email": "developers@geospoc.com",
     "name": "GeoSpoc Dev Team",
@@ -117,14 +113,14 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:geospoc/v-mapbox.git"
+    "url": "git+https://github.com/spatialmedia/v-mapbox.git"
   },
   "private": false,
   "sideEffects": [
     "*.css"
   ],
   "bugs": {
-    "url": "https://github.com/geospoc/v-mapbox/issues"
+    "url": "git+https://github.com/spatialmedia/v-mapbox/issues"
   },
   "homepage": "https://v-mapbox.geospoc.io/"
 }
